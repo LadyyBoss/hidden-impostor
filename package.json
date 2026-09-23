@@ -1,0 +1,1 @@
+{"name":"hidden-impostor","private":true,"scripts":{"dev":"concurrently \"pnpm --filter server dev\" \"pnpm --filter web dev\"","test":"pnpm --filter server test","build":"pnpm --filter server build && pnpm --filter web build"},"devDependencies":{"concurrently":"^9.1.2","typescript":"^5.7.2"},"packageManager":"pnpm@10.4.1"}
